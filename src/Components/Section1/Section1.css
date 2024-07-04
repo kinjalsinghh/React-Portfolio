@@ -1,0 +1,125 @@
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.section1-top{
+    display: flex;
+    width:1298px;
+    height:86px;
+    background: rgba(23, 23, 23, 1);
+    border-radius: 50px;
+    color:white;
+    gap:110px;
+    font-size: 20px;
+}
+.section1-logo{
+    display: flex;
+    gap:10px;
+}
+.section1-top button{
+    width:136px;
+    height:60px;
+    background: rgba(253, 133, 58, 1);
+    font-size: 18px;
+    color:white;
+    font-weight: 600;
+    border-radius: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.section-bottom{
+    display: flex;
+    flex-direction: column;
+}
+.section-bottom-button{
+    margin-top: 50px;
+}
+.section-bottom-button button{
+    width: 103px;
+    height: 45px;
+    border-radius: 38px;
+    border: 1.27px solid rgba(23, 23, 23, 1);
+    font-size: 20px;
+    font-weight: 500;
+    background: transparent;
+}
+.section-bottom-heading p{
+    font-size: 90px;
+    font-weight: 600;
+    color:rgba(23, 23, 23, 1);
+    margin-top: 0px;
+}
+.section1-span{
+    color:rgba(253, 133, 58, 1);
+}
+.section-bottom-main{
+    display: flex;
+}
+.section-bottom-main-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 500;
+    color:rgba(52, 64, 84, 1);
+    text-align: left; 
+    margin-right:-50px;
+}
+.section-bottom-main-img{
+   z-index:1;
+   margin-top: -200px;
+   width:900px;
+   margin-right: 150px;
+}
+.section-bottom-main-stars{
+    text-align: right;
+    margin-left: -50px;
+}
+@media(max-width:900px){
+    .section1{
+        margin-bottom: 350px;
+    }
+    .section1-top{
+        width:500px;
+        font-size: 15px;
+        gap:10px;
+    }
+    .section1-top button{
+        width:80px;
+        font-size: 15px;
+    }
+    .section1-top p{
+        margin-top:25px;
+    }
+    .section-bottom-button button{
+        width: 80px;
+        height: 35px;
+        border-radius: 38px;
+        border: 1.07px solid rgba(23, 23, 23, 1);
+        font-size: 15px;
+        
+    }
+    .section-bottom-heading p{
+        font-size: 60px;
+        font-weight: 600;
+    }
+    .section-bottom-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-bottom-main-img{
+        width:50%;
+        height:50%;
+    }
+    .section-bottom-main-text{
+        margin-top: -50px;
+        margin-left: 700px;
+        font-size: 15px;
+    }
+    .section-bottom-main-stars{
+        margin-right: 300px;
+        margin-top: -500px;
+    }
+}

@@ -1,0 +1,80 @@
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section3-heading p{
+    font-size: 60px;
+    font-weight: 500;
+}
+.section3-span{
+    color:rgba(253, 133, 58, 1);
+}
+.section3-contents{
+    display: flex;
+    gap:100px;
+    text-align: left;
+    margin-right: 80px;
+}
+.section3-bubbles{
+    margin-right: 100px;
+}
+.section3-contents-workplace{
+    gap:80px;
+    margin-top: -30px;
+    margin-right: 80px;
+}
+.workplace-details{
+    padding: 8px;
+}
+.workplace-details-heading{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgba(52, 64, 84, 1);
+}
+.workplace-details-date{
+    color:rgba(152, 162, 179, 1);
+    font-size: 20px;
+    margin-top: -10px;
+}
+.section3-contents-designation{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-top: -40px;;
+    margin-left: 100px;
+}
+.designation-details-heading{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgba(52, 64, 84, 1);
+    margin-bottom: 0px;
+}
+.designation-details-text{
+    color:rgba(152, 162, 179, 1);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+@media(max-width:900px){
+    
+    .section3-heading p{
+        font-size: 30px;
+    }
+    .section3-contents{
+        gap:50px;
+        margin-left: 50px;
+    }
+    .workplace-details-heading{
+        font-size: 20px;
+    }
+    .workplace-details-date{
+        font-size: 15px;
+    }
+    .designation-details-heading{
+        font-size: 20px;
+    }
+    .designation-details-text{
+        font-size: 12px;
+    }
+}

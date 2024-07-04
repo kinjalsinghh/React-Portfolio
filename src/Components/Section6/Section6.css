@@ -1,0 +1,39 @@
+.section6{
+    height:863px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.section6-heading p{
+  font-size: 48px;
+  font-weight: 500;
+  color:rgba(252, 252, 253, 1);
+  margin-bottom: 0px;
+}
+.section6-span{
+    color:rgba(253, 133, 58, 1);
+}
+.section6-subheading{
+    font-size: 20px;
+    font-weight: 400;
+    color:white;
+    margin-top:0px;
+}
+.testimonials{
+    margin-top: 50px;
+    width:100%;
+    display:flex;
+    gap:70px;
+}
+@media(max-width:900px){
+    .section6{
+        height:600px;
+    }
+    .section6-heading p{
+        font-size: 28px;
+    }
+    .section6-subheading{
+        font-size: 15px;
+    }
+
+}

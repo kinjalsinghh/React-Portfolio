@@ -1,0 +1,22 @@
+.section8{
+    height:107px;
+    background: rgba(251, 101, 20, 1);
+}
+.section8-content{
+    height: 63px;
+    gap:30px;
+    display: flex;
+    z-index:1;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 30px;
+    transform: rotate(-2.5deg);
+}
+.section8-content p{
+    margin-top: 8px;
+}
+@media(max-width:900px){
+    .section8-content{
+        font-size: 15px;
+        gap:15px;
+    }
+}

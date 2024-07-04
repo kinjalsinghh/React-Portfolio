@@ -1,0 +1,134 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(39, 39, 39, 1);
+    border: none;
+}
+.footer-contents{
+    width: 90%;
+    padding:10px;
+}
+.footer-content1{
+    display: flex;
+    padding: 5px;
+}
+.footer-logo{
+    display: flex;
+    height: 86px;
+    align-items: center;
+    gap: 5px;
+}
+.footer-logo img{
+    width: 46px;
+    height: 46px;
+}
+.footer-logo p{
+    font-size: 25px;
+    font-weight: 600;
+}
+.footer-content1 p{
+    font-size: 40px;
+    color:rgba(252, 252, 253, 1);
+    font-weight: 600;
+}
+.footer-content1 button{
+    width:200px;
+    height:60px;
+    background: rgba(253, 133, 58, 1);
+    color:rgba(255, 255, 255, 1);
+    padding:10px, 20px, 10px, 20px;
+    border-radius: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 800px;
+    margin-top: 40px;
+}
+.footer-content2{
+    display: flex;
+    text-align: left;
+    gap:20px;
+}
+.footer-content2-1{
+    display: flex;
+    flex-direction: column;
+    width:635px;
+    color:rgba(252, 252, 253, 1);
+}
+.footer-content2-1-text{
+    font-size: 20px;
+}
+.footer-content2-1-socialmedia{
+  display: flex;
+  gap:5px;
+}
+.footer-content2-2{
+    width:103px;
+}
+.footer-content2-heading{
+    font-size: 20px;
+    font-weight: 600;
+    color:rgba(253, 133, 58, 1);
+}
+.footer-content2-2-points{
+    color:rgba(252, 252, 253, 1);
+    font-size: 16px;
+}
+.footer-content2-3{
+    width:168px;
+    height: 157px;
+}
+.footer-content2-4{
+ width:304px;
+}
+.footer-content2-4 input{
+    width:100%;
+    height: 51px;
+    background: rgba(255, 255, 255, 1);
+    padding-left:20px;
+    border: none;
+    border-radius: 14px;
+}
+hr{
+    border:2px solid rgba(71, 84, 103, 1);
+}
+.footer-content3{
+    display: flex;
+    color:rgba(255, 255, 255, 1);
+    gap:750px;
+}
+.input-field{
+    display: flex;
+}
+@media(max-width:900px){
+    .footer-content1 p{
+        font-size: 20px;
+    }
+    .footer-content1 button{
+        width:150px;
+        height:40px;
+        font-size: 12px;
+        margin-left: 300px;
+    }
+    .footer-content2-1-text{
+        font-size: 15px;
+    }
+    .footer-content2-2{
+        width:80px;
+    }
+    .footer-content2-heading{
+        font-size: 16px;
+    }
+    .footer-content2-2-points{
+        font-size: 14px;
+    }
+    .footer-content2-4 input{
+        width:80%;
+    }
+    .input-field{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

@@ -1,0 +1,101 @@
+.section5{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:20px 40px 20px 40px;
+    margin-bottom: 50px;
+}
+.section5-top{
+    display: flex;
+    width: 90%;
+}
+.section5-top-heading{
+    text-align: left;
+    width:70%;
+    font-size: 50px;
+    font-weight: 600;
+}
+.section5-span{
+    color:rgba(253, 133, 58, 1);
+}
+.section5-top-button{
+    width:30%;
+    margin-left: 150px;
+}
+.section5-top-button button{
+    width:144px;
+    height:66px;
+    border-radius: 60px;
+    background: rgba(253, 133, 58, 1);
+    padding:20px, 40px, 20px, 40px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color:white;
+    margin-top: 60px;
+}
+.section5-bottom{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+}
+.section5-bottom-content1{
+    width: 100%;
+    display: flex;
+    gap:20px;
+}
+.section5-bottom-content2{
+    margin-top: 50px;;
+    display: flex;
+    gap:25px;
+}
+.section5-bottom-content2 button{
+    background: rgba(242, 244, 247, 1);
+    border: none;
+    border-radius: 24px;
+    font-size: 20px;
+    padding-left:30px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    color:rgba(0, 0, 0, 1);
+}
+.section5-bottom-content3{
+    align-items: center;
+}
+.section5-bottom-content-heading p{
+   
+    font-size: 30px;
+    font-weight: 600;
+}
+@media(max-width:900px){
+    .section5-top-heading{
+        font-size: 30px;
+    }
+    .section5-top-button button{
+        width:104px;
+        height:46px;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .section5-bottom-content1{
+        display: flex;
+        flex-direction: column;
+        gap:50px;
+        margin-left: 80px;
+    }
+    
+    .section5-bottom-content1 img{
+        width:80%;
+        height: 80%;;
+    }
+    .section5-bottom-content2 button{
+        font-size: 16px;
+        padding-left:20px;
+        padding-top:10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        color:rgba(0, 0, 0, 1);
+    }
+}
