@@ -51,9 +51,7 @@ function Footer(){
                <p className="footer-content2-heading">Get Latest Information</p>
                <div className='input-field'>
                <input type="text" placeholder='email address'/>
-               <div style={{width:"15%", height:"53px",backgroundColor:"rgba(253, 133, 58, 1)",borderRadius:"14px", marginLeft:"-40px"}}>
-                <img style={{height:"24px",width:"24px",marginTop:"12px",marginLeft:"10px"}} src={send}/>
-               </div>
+               <div className='footer-send'><img src={send}/></div>
                </div>
                </div>
            </div>

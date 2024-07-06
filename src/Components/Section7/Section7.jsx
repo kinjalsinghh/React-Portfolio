@@ -12,7 +12,7 @@ function Section7(){
                 </div>
                 <div className="section7-bottom">
                     <div className="section7-bottom-email">
-                        <img style={{zIndex:"1", marginRight:"-70px"}} src={email}/>
+                        <img src={email}/>
                         <input type="text" placeholder="Enter Email address"/>
                         <button>Send</button>
                     </div>

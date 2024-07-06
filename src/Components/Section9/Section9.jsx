@@ -15,7 +15,7 @@ function Section9(){
                 <div className="section9-content">
                     <img src={img1}/>
                     <img style={{marginTop:"-140px",marginLeft:"300px"}} src={arrow}/>
-                    <button>UI/UX design</button>
+                    <p className='type-of-design'>UI/UX design</p>
                     <div className='section9-content-name'>
                         <p>Jayesh Patil</p>
                         <p>10 Nov, 2023</p>
@@ -27,7 +27,7 @@ function Section9(){
                 <div className="section9-content">
                     <img src={img2}/>
                     <img style={{marginTop:"-140px",marginLeft:"300px"}} src={arrow}/>
-                    <button>App design</button>
+                    <p className='type-of-design'>App design</p>
                     <div className='section9-content-name'>
                         <p>Jayesh Patil</p>
                         <p>10 Nov, 2023</p>
@@ -39,7 +39,7 @@ function Section9(){
                 <div className="section9-content">
                     <img src={img3}/>
                     <img style={{marginTop:"-140px",marginLeft:"300px", marginBottom:"20px"}} src={arrow}/>
-                    <button>App design</button>
+                    <p className='type-of-design'>App design</p>
                     <div className='section9-content-name'>
                         <p>Jayesh Patil</p>
                         <p>10 Nov, 2023</p>

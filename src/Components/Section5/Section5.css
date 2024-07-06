@@ -50,7 +50,7 @@
     display: flex;
     gap:25px;
 }
-.section5-bottom-content2 button{
+.section5-bottom-content2 p{
     background: rgba(242, 244, 247, 1);
     border: none;
     border-radius: 24px;
@@ -90,7 +90,7 @@
         width:80%;
         height: 80%;;
     }
-    .section5-bottom-content2 button{
+    .section5-bottom-content2 p{
         font-size: 16px;
         padding-left:20px;
         padding-top:10px;

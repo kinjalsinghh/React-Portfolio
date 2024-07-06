@@ -19,12 +19,26 @@
     color:white;
     margin-top:0px;
 }
-.testimonials{
-    margin-top: 50px;
-    width:100%;
-    display:flex;
-    gap:70px;
-}
+ .testimonials-container{
+    padding:2rem;
+    width:784px;
+    margin-left: 21%;
+ }
+ .slider-wrapper{
+    position: relative;
+ }
+ .slider{
+    display: flex;
+    aspect-ratio: 26/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+ }
+ .slider img{
+    scroll-snap-align: start;
+    margin-right: 20px;
+ }
+ 
 @media(max-width:900px){
     .section6{
         height:600px;
@@ -35,5 +49,7 @@
     .section6-subheading{
         font-size: 15px;
     }
-
+    .testimonials-container{
+        width:384px;
+     }
 }

@@ -11,10 +11,19 @@ function Section6(){
           <div className="section6-subheading">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue interdum<br/> ligula a dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed<br/> lobortis orci elementum egestas lobortis.</p>
           </div>
-          <div className="testimonials">
-            <img src={img1}/>
-            <img src={img2}/>
-            <img src={img3}/>
+          <div className="testimonials-container">
+              <div className='slider-wrapper'>
+                <div className="slider">
+                  <img className='slide1' src={img2}/>
+                  <img className='slide2' src={img2}/>
+                  <img className='slide3' src={img2}/>
+                </div>
+                <div className="slide-nav">
+                  <a href=".slide1"></a>
+                  <a href=".slide2"></a>
+                  <a href=".slide3"></a>
+                </div>
+              </div>
           </div>
         </div>
     )

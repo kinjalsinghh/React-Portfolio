@@ -18,10 +18,10 @@ function Section5(){
                     <img src={image}/>
                 </div>
                 <div className="section5-bottom-content2">
-                    <button>Landing page</button>
-                    <button>Animation design</button>
-                    <button>GlassMorphism</button>
-                    <button>Cards</button>
+                    <p>Landing page</p>
+                    <p>Animation design</p>
+                    <p>GlassMorphism</p>
+                    <p>Cards</p>
                 </div>
                 <div className="section5-bottom-content3">
                    <div classname="section5-bottom-content-heading" style={{display:"flex",gap:"20px"}}>

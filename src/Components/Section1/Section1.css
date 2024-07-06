@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 67px;
 }
 .section1-top{
     display: flex;
@@ -65,21 +66,68 @@
     font-weight: 500;
     color:rgba(52, 64, 84, 1);
     text-align: left; 
-    margin-right:-50px;
+    margin-right:-100px;
 }
 .section-bottom-main-img{
    z-index:1;
    margin-top: -200px;
    width:900px;
-   margin-right: 150px;
+   margin-right: 220px;
 }
 .section-bottom-main-stars{
     text-align: right;
     margin-left: -50px;
 }
+.scroll-bar{
+    display: flex;
+    height:82px;
+    width:300px;
+    background: rgba(255, 255, 255, 0.1);
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    border-radius: 50px;
+    border: 2px solid radial-gradient(rgba(255, 255, 255, 1),
+    rgba(201, 201, 201, 0));
+    z-index: 2;
+    margin-top: -150px;
+}
+.scroll-bar button{
+    width:180px;
+    height:62px;
+    background: rgba(253, 133, 58, 1);
+    border:0.5px solid rgba(208, 213, 221, 1);
+    color:rgba(255, 255, 255, 1);
+    font-size: 25px;
+    font-weight: 500;
+    align-items: center;
+    border-radius: 60px;
+    padding-left:30px;
+}
+.scroll-bar-portfolio{
+    display: flex;
+    align-items: center;
+}
+.section1-hire{
+    font-size: 25px;
+    font-weight: 300;
+    color:rgba(255, 255, 255, 1);
+    padding-right: 10px;
+}
+.section-bottom-main-years{
+     font-size:47px;
+     font-weight:700;
+     margin-top:0px;
+     margin-bottom:0px;
+}
+.section-bottom-main-experience{
+    font-size:20px;
+    font-weight:400;
+    margin-top:0px;
+}
 @media(max-width:900px){
     .section1{
-        margin-bottom: 350px;
+        margin-bottom: 110px;
     }
     .section1-top{
         width:500px;
@@ -110,16 +158,50 @@
         flex-direction: column;
     }
     .section-bottom-main-img{
-        width:50%;
-        height:50%;
+        width:40%;
+        height:40%;
+        margin-left: 170px;
     }
     .section-bottom-main-text{
         margin-top: -50px;
-        margin-left: 700px;
-        font-size: 15px;
+        margin-left: 450px;
+        font-size: 10px;
     }
     .section-bottom-main-stars{
-        margin-right: 300px;
-        margin-top: -500px;
+        margin-right: 450px;
+        margin-top: -550px;
+    }
+    .section-bottom-main-years{
+        font-size:27px;
+        font-weight:700;
+        margin-top:0px;
+        margin-bottom:0px;
+   }
+   .section-bottom-main-experience{
+       font-size:15px;
+       font-weight:400;
+       margin-top:0px;
+   }
+    .scroll-bar{
+        height:50px;
+        width:200px;
+        gap:5px;
+        margin-top: 280px;
+    }
+    .scroll-bar button{
+        width:120px;
+        height:40px;
+        font-size: 15px;
+        font-weight: 500;
+        padding-left:10px;
+    }
+
+    .section1-hire{
+        font-size: 15px;
+        padding-right: 5px;
+    }
+    .scroll-bar img{
+        width:25px;
+        height: 25px;
     }
 }
